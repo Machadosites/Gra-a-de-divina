@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milagres de Maria</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #002f6c;
+            color: white;
+            padding: 20px;
+        }
+        h2 {
+            color: #004aad;
+        }
+        button {
+            background-color: #004aad;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #002f6c;
+        }
+        #message {
+            display: none;
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: #004aad;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    
+    <h1>Milagres da Santa Maria de Nazaré</h1>
+    <P>CRIADOR: WILLIAM MACHADO DE SOUZA
+    </P>
+</header>
+    <main>
+        <section id="intro">
+            <h2>Historia de Maria</h2>
+            <p>Maria foi concebida sem mancha do pecado nascida por volta de 20 a.C,Maria era uma mulher humilde  e respeitosa com as pessoas sempre ajudava os mais nescessitados,com o tempo ela conheceu seu esposo chamado josé o tempo foi se passando e numa noite maria acorda e deparar com um anjo chamado gabriel ele o disse que ela é uma mulher cheia de graça e ela teria um filho chamado jesus ele será o messias mais ela teria o filho sem ser como os outros o Espirito Santo cairia sobre ela.</p>
+        </section>
+        <section id="miracles">
+            <h2>Principais Milagres</h2>
+            <ul></ul>
+                <li>*Milagres da Bodas de Caná*</li>
+                <p>maria intercede para jesus transformasse água em vinho.</p>
+                <li>Aparição de Nossa Senhora de Guadalupe.</li>
+                <p>Maria aparece ao um indigena e colocar a sua imagem no manto do indigena.</p>
+                <li>Milagre em Lourdes.</li>
+                <p>Em 1858  barnadette testemunhou a à aparição de Maria e uma nascente revelada por ela se tornou fonte de cura. </p>
+            <li>Milagre da pesca milagrosa</li>
+        <p>em 1717 Nossa Senhora de Aparecida aparece no Brasil ela faz um milagre da pesca milagrosa e tambem curas atribuidas a Santa.
+            <li>Milagre de Nossa Senhora das Graças</li>
+            <p>em 1830 Catarina labouré teve visões de Maria em Paris onde recebe instruções para criar a medalha Milagrosa que se tornou simbolo de proteção.</p>
+            <li>Maria Milagre</li>
+            <p>Fieis afirmam que em Oração  pedindo intercessão de Maria para resolver situações impussiveis. </p>
+            </ul>
+        </section>
+        <button id="showMessage">Clique nessa mensagem poderosa e cheia de amor</button>
+        <p id="message">Maria nos ensina a viver com fé e esperança, pregue os ensinamentos cristãos como você quiser a minha formar e pela internet nunca perca a fé quando sentir duvidas reze e leia a biblia lembresse que jesus vê tudo quando sentir aquela vontade de cair no mesmo pecado lembresse que nosso pai ta te olhando, se arrependa dos seus pecados verdadeiramente agora que no futuro eu te garanto que sua porcentagem de entra no céu aumenta acredite em um so Deus e não entre nesse mundo adiabolico </p>
+    </main>
+    <script>
+        document.getElementById("showMessage").addEventListener("click", function() {
+            document.getElementById("message").style.display = "block";
+        });
+    </script>
+</body>
+</html
